@@ -89,22 +89,4 @@ smart contract-frontend integration/
 - `get_highest_bidder(auction_id)` → Address
 - `get_highest_bid(auction_id)` → i128
 
-## Testnet Contract Deployment
 
-**Contract ID:** [Add ID after deployment]
-
-Update this README with your contract ID after successful deployment!
-
-## Resources
-
-- [Stellar Documentation](https://developers.stellar.org/)
-- [Soroban Docs](https://soroban.stellar.org/)
-- [React Docs](https://react.dev/)
-
-## License
-
-MIT
-
----
-
-**Built with ❤️ using Stellar Soroban**
