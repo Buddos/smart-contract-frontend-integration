@@ -1,0 +1,21 @@
+[package]
+name = "no-loss-auction"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soroban-sdk = "20.5.0"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+overflow-checks = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[[example]]
+name = "build_and_invoke"
+path = "examples/build_and_invoke.rs"
